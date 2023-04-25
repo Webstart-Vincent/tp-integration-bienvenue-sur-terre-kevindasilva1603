@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="TP page d’atterrissage destinée à accueillir les extra-terrestres sur Terre" />
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+        <script src="./assets/js/wheather.js" defer></script>
+        <script src="./assets/js/script.js" defer></script>
+        <title>Page d’atterrissage</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <img
+                    src="./assets/img/bonjour-la-terre.gif"
+                    alt="planète Terre" />
+                <h1>Bienvenue sur Terre</h1>
+            </header>
+            <main>
+                <div class="carousel-container main-section">
+                    <div class="carousel">
+                        <section>
+                            <div class="container">
+                                <img
+                                    src="./assets/img/earth-and-moon.gif"
+                                    alt="" />
+                                <article>
+                                    <h2>La Terre</h2>
+                                    <p>
+                                        Sa bonne taille crée une attraction
+                                        suffisante qui empêche la vapeur d’eau
+                                        et l’atmosphère de s’échapper dans
+                                        l’espace et qui nous protège des
+                                        rayonnements ultraviolets.La terre est
+                                        un écosystème géant. La terre est un
+                                        ensemble d'êtres vivants dans un
+                                        environnement commun.Si un écosystème
+                                        est un milieu naturel ou artificiel
+                                        composé d'êtres vivants qui y habitent,
+                                        alors la terre est un écosystème géant.
+                                    </p>
+                                </article>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="container">
+                                <img
+                                    src="./assets/img/earth-low-poly.gif"
+                                    alt="" />
+                                <article>
+                                    <h2>La Température</h2>
+                                    <p>
+                                        <p>
+                                            Son juste éloignement du Soleil
+                                            maintient et un effet de serre favorable
+                                            qui permet de maintenir l’eau sous sa
+                                            forme liquide avec ses pluies, ses
+                                            rivières ses lacs et ses océans, et
+                                            établit une température moyenne de 18°
+                                            très favorable au développement de la
+                                            vie.
+                                        </p>
+                                    </p>
+                                </article>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="container">
+                                <img
+                                    src="./assets/img/earth-pixel.gif"
+                                    alt="" />
+                                <article>
+                                    <h2><h2>Renouvellement</h2> </h2>
+                                    <p>
+                                        <p>
+                                            La Terre est aussi vivante sur le plan
+                                            géologique. La chaleur résiduelle
+                                            qu’elle renferme dans ses couches
+                                            profondes permet l’existence du
+                                            volcanisme, du mouvement des plaques
+                                            tectoniques qui, en dépit des
+                                            tremblements de terres destructeurs,
+                                            permet à long terme le soulèvement de
+                                            nouvelles chaînes de montagne, crée de
+                                            nouveau océans et transforme lentement
+                                            les contours des continents.
+                                        </p>
+                                    </p>
+                                </article>
+                            </div>
+                        </section>
+                    </div>
+                    <button
+                        class="bi bi-chevron-left"
+                        aria-label="Diapositive précedente"></button
+                    ><button
+                        class="bi bi-chevron-right"
+                        aria-label="Diapositive suivante"></button>
+                    <div class="carousel-indicators">
+                        <div class="indicator"></div>
+                        <div class="indicator"></div>
+                        <div class="indicator"></div>
+                    </div>
+                </div>
+                <section class="weather-wrapper main-section">
+                    <div class="weather-container">
+                        <ul class="citys-container">
+                            <li
+                                class="city active"
+                                data-lat="63.2232934"
+                                data-long="-1.8478262">
+                                Suisse<img
+                                    src="./assets/icons/chevron.svg"
+                                    alt="chevron"
+                                    class="chevron-icon" />
+                            </li>
+                            <li
+                                class="city"
+                                data-lat="59.7048095"
+                                data-long="-179.4357362">
+                                Alaska<img
+                                    src="./assets/icons/chevron.svg"
+                                    alt="chevron"
+                                    class="chevron-icon" />
+                            </li>
+                            <li
+                                class="city"
+                                data-lat="28.4219475"
+                                data-long="82.2327347">
+                                Séoul<img
+                                    src="./assets/icons/chevron.svg"
+                                    alt="chevron"
+                                    class="chevron-icon" />
+                            </li>
+                            <li
+                                class="city"
+                                data-lat="31.8450278"
+                                data-long="116.8230352">
+                                Japon<img
+                                    src="./assets/icons/chevron.svg"
+                                    alt="chevron"
+                                    class="chevron-icon" />
+                            </li>
+                            <li
+                                class="city"
+                                data-lat="40.8156039"
+                                data-long="6.4652358">
+                                Braga<img
+                                    src="./assets/icons/chevron.svg"
+                                    alt="chevron"
+                                    class="chevron-icon" />
+                            </li>
+                            <div class="rustine"></div>
+                        </ul>
+                        <div class="weather-info">
+                            <p class="weather"></p>
+                            <p class="temperature"></p>
+                            <img src="" alt="" class="weather-icon" />
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>
